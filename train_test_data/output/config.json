@@ -1,0 +1,20 @@
+{
+  "tfidf_max_features": 500,
+  "tfidf_ngram_range": [
+    1,
+    2
+  ],
+  "tfidf_stop_words": "english",
+  "w2v_vector_size": 100,
+  "w2v_window": 5,
+  "w2v_min_count": 1,
+  "w2v_workers": 4,
+  "sbert_model_name": "all-MiniLM-L6-v2",
+  "sbert_batch_size": 32,
+  "sbert_epochs": 3,
+  "sbert_warmup_steps": 100,
+  "classifier_type": "logistic",
+  "random_state": 42,
+  "test_size": 0.2,
+  "cv_folds": 5
+}

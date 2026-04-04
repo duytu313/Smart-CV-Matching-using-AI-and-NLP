@@ -1,0 +1,601 @@
+resume_text,job_description,label
+"Python, JavaScript, Node.js, Kubernetes, Git, Docker","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"Python, React, Node.js, JavaScript, Docker, Machine Learning, Java","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"C++, Node.js, Azure, Data Analysis, Python, SQL","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"Kubernetes, Java, Docker, Node.js","Looking for Backend Developer with skills: Java, SQL, Docker, Git",1
+"Java, JavaScript, Kubernetes, SQL, Linux","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"SQL, Docker, Java, Azure, Kubernetes, Deep Learning","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"Linux, Python, C++, HTML","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"Java, HTML, Python, C++, Linux, Kubernetes, Deep Learning","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"Node.js, React, Java, HTML","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"Docker, Deep Learning, AWS, HTML, C++, Linux, Kubernetes","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"Git, CSS, C++, Java, Kubernetes, JavaScript, Deep Learning","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",0
+"JavaScript, Machine Learning, Git, AWS, Data Analysis, SQL, HTML","Looking for Backend Developer with skills: Java, SQL, Docker, Git",1
+"Deep Learning, React, Kubernetes, Azure, CSS, AWS","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",1
+"Git, AWS, HTML, Linux, Node.js","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"SQL, Data Analysis, CSS, C++","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"Docker, Node.js, Linux, React, Git","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"JavaScript, Machine Learning, Azure, Kubernetes, React, SQL","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"JavaScript, C++, Linux, Node.js","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"React, Machine Learning, SQL, Azure","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"Machine Learning, Azure, CSS, Python, Kubernetes, AWS","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",1
+"Azure, CSS, HTML, Git, Linux","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"SQL, Python, React, Git, HTML, Deep Learning, Machine Learning","Looking for Backend Developer with skills: Java, SQL, Docker, Git",1
+"Linux, AWS, Deep Learning, Java, Kubernetes, Node.js","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"Kubernetes, C++, Linux, Deep Learning, Java, Data Analysis","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"Java, React, Linux, JavaScript, Python, HTML, Azure","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",0
+"Kubernetes, Machine Learning, HTML, SQL, CSS, Data Analysis, AWS","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"C++, Git, Azure, CSS","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"HTML, C++, Python, Git","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"JavaScript, Java, Python, Data Analysis, Git, Linux, Node.js","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"Deep Learning, AWS, Python, Docker, CSS, Java","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",1
+"SQL, JavaScript, CSS, Azure, Node.js, Python","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"Node.js, Data Analysis, SQL, Docker, Git","Looking for Backend Developer with skills: Java, SQL, Docker, Git",1
+"AWS, Java, SQL, HTML, React, Machine Learning","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"JavaScript, Deep Learning, AWS, CSS, React","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",1
+"Docker, Linux, Kubernetes, Machine Learning, SQL, Java, AWS","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",1
+"React, SQL, CSS, Docker, Python, Git","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"Kubernetes, Git, Deep Learning, Data Analysis, JavaScript, Docker","Looking for Backend Developer with skills: Java, SQL, Docker, Git",1
+"React, Deep Learning, CSS, HTML, Linux, Azure","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"Python, CSS, Java, Linux, Docker, Kubernetes","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"Docker, Python, C++, Machine Learning, Linux, CSS, HTML","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"Node.js, React, Machine Learning, Data Analysis, Kubernetes","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"React, SQL, Python, Kubernetes, Linux, CSS","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"SQL, Machine Learning, JavaScript, Kubernetes, Linux, React, Node.js","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"Azure, SQL, Java, React","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"Git, JavaScript, Data Analysis, Machine Learning, React, SQL","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"Deep Learning, Kubernetes, AWS, Machine Learning","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"Docker, Azure, Machine Learning, React","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"Python, AWS, Azure, Data Analysis, Node.js, React","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",0
+"Data Analysis, Deep Learning, Docker, HTML, Python, Kubernetes, Azure","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"Azure, Data Analysis, Node.js, AWS","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"Linux, C++, Docker, Java","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"Linux, Docker, Azure, AWS, Python","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",1
+"Azure, Kubernetes, React, Node.js, Deep Learning, C++","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"Docker, CSS, Python, JavaScript, Azure, Kubernetes","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"AWS, Node.js, Kubernetes, Data Analysis, HTML, Deep Learning","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"Data Analysis, Git, Java, Machine Learning, Node.js, JavaScript, Azure","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",1
+"CSS, Node.js, Docker, Machine Learning, AWS, Git","Looking for Backend Developer with skills: Java, SQL, Docker, Git",1
+"Docker, AWS, Linux, HTML","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"React, Data Analysis, Linux, Machine Learning, Kubernetes","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"Kubernetes, JavaScript, React, Docker","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",1
+"C++, Java, JavaScript, HTML","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"Kubernetes, JavaScript, Deep Learning, C++, Git","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"Azure, Git, Python, AWS","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"HTML, Python, AWS, Deep Learning","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",0
+"AWS, HTML, Azure, Kubernetes, C++, Linux, CSS","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"JavaScript, SQL, HTML, Kubernetes, Machine Learning, AWS, C++","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",1
+"Node.js, Docker, Data Analysis, Git, Python","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"Docker, Java, Data Analysis, SQL, React, C++, Kubernetes","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"C++, Python, React, Deep Learning, Kubernetes, Data Analysis, Java","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"Java, C++, Node.js, Git, HTML","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"Java, Azure, Kubernetes, JavaScript, HTML, Python, React","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",1
+"CSS, Deep Learning, Kubernetes, Docker, Node.js, Machine Learning, Linux","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"CSS, SQL, Node.js, Python, Data Analysis, AWS, Machine Learning","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"Node.js, C++, Data Analysis, Machine Learning, Java, Git, AWS","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"Linux, Deep Learning, JavaScript, C++","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"Machine Learning, Data Analysis, Linux, AWS, JavaScript","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"CSS, SQL, Java, Data Analysis, Kubernetes","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",1
+"Machine Learning, React, Python, Kubernetes, JavaScript","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",0
+"Linux, Data Analysis, Docker, JavaScript","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"Deep Learning, CSS, Python, Machine Learning, Azure","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",0
+"SQL, Git, Azure, Data Analysis, Deep Learning, JavaScript","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"C++, HTML, Node.js, CSS, SQL, Azure","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"C++, Azure, Python, Docker, HTML, JavaScript","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",1
+"React, Data Analysis, Docker, Python","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"Python, JavaScript, Linux, Git, Deep Learning, CSS, Docker","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"Java, Linux, AWS, Machine Learning","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"Machine Learning, AWS, Kubernetes, SQL","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"Data Analysis, Git, HTML, Linux, Docker, CSS, React","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",1
+"Docker, Data Analysis, Python, C++","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"CSS, C++, Machine Learning, Kubernetes, SQL","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"AWS, Java, Docker, C++, Azure, HTML, JavaScript","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"Kubernetes, Data Analysis, SQL, Node.js","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"Kubernetes, AWS, Node.js, CSS, Docker","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"Kubernetes, Azure, CSS, HTML, AWS, Python","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"JavaScript, Node.js, C++, Linux, Kubernetes, React","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"React, Kubernetes, Python, Azure, SQL, Java","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"CSS, Docker, Machine Learning, Kubernetes, React","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"C++, Python, Java, Linux, CSS","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"HTML, Git, CSS, Node.js, Azure, Java","Looking for Backend Developer with skills: Java, SQL, Docker, Git",1
+"AWS, C++, CSS, React","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"React, SQL, Docker, Deep Learning, Azure, Data Analysis, Python","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",1
+"Git, Linux, CSS, AWS, JavaScript, Docker, Deep Learning","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",1
+"Linux, Azure, Java, Machine Learning, CSS, JavaScript","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"Python, SQL, React, Machine Learning, Data Analysis","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",1
+"C++, AWS, React, SQL, HTML, Machine Learning","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"AWS, Azure, Python, SQL, Kubernetes","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"Docker, C++, Machine Learning, JavaScript, Azure, Data Analysis","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"Kubernetes, CSS, React, Deep Learning, C++, Python","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",0
+"Machine Learning, HTML, SQL, Git, CSS, Azure, C++","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"Azure, Linux, AWS, JavaScript","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"Docker, C++, Kubernetes, React, Linux, Data Analysis","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"Azure, Docker, Machine Learning, AWS, SQL, Deep Learning","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",1
+"Python, Deep Learning, Node.js, Docker","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"React, AWS, Python, Node.js","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",0
+"Git, C++, Data Analysis, React, Deep Learning, Linux","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"Java, Docker, HTML, Machine Learning","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"Deep Learning, Python, SQL, Machine Learning, Linux","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"Kubernetes, Data Analysis, Git, SQL, Azure, Deep Learning","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"C++, Docker, Machine Learning, Node.js, Data Analysis, Linux, Azure","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"Machine Learning, C++, AWS, React, JavaScript","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"Kubernetes, Python, Node.js, SQL","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"Kubernetes, Docker, AWS, Machine Learning, SQL, React","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"Node.js, JavaScript, Machine Learning, Git, Python, Linux, Kubernetes","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",1
+"Deep Learning, HTML, Data Analysis, Azure, C++, Git","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"Docker, Kubernetes, Node.js, AWS","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",1
+"Deep Learning, Node.js, Azure, React, Data Analysis, AWS, Docker","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",1
+"HTML, Deep Learning, Azure, React, AWS","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"Azure, Docker, C++, Deep Learning, Machine Learning, JavaScript","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"SQL, Kubernetes, Git, Docker, AWS","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"Git, Deep Learning, React, Python, Node.js, SQL","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",1
+"Java, Python, React, Kubernetes, Git, Data Analysis, Node.js","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",1
+"AWS, Git, Docker, HTML, CSS","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",1
+"Kubernetes, AWS, Docker, Deep Learning, Java","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"HTML, Java, Node.js, Docker, Linux","Looking for Backend Developer with skills: Java, SQL, Docker, Git",1
+"Node.js, JavaScript, C++, SQL, Docker, AWS","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"Machine Learning, Python, Deep Learning, Azure, SQL","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",1
+"AWS, Python, C++, Linux","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"React, CSS, SQL, HTML","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",1
+"Kubernetes, Linux, CSS, AWS, Git","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"Azure, Data Analysis, Docker, Node.js, CSS, Java","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",0
+"Machine Learning, JavaScript, Docker, Java, AWS, Git","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"AWS, Deep Learning, Git, Node.js, C++, Linux, JavaScript","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"Java, React, Azure, Node.js, CSS, C++","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"JavaScript, Data Analysis, Node.js, Kubernetes, Machine Learning","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",0
+"Java, Data Analysis, Machine Learning, HTML, React, Kubernetes","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",0
+"Azure, Data Analysis, JavaScript, Linux","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"Linux, Git, SQL, AWS, Kubernetes","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"AWS, Git, Python, Node.js, React, Java, Kubernetes","Looking for Backend Developer with skills: Java, SQL, Docker, Git",1
+"Node.js, JavaScript, Deep Learning, C++","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"HTML, CSS, SQL, Deep Learning, JavaScript","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"Azure, JavaScript, C++, CSS, HTML, Node.js, Data Analysis","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",1
+"Machine Learning, Python, Azure, Node.js, JavaScript","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"Machine Learning, Python, HTML, Kubernetes, Docker, CSS","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",1
+"Deep Learning, JavaScript, Python, Docker, Kubernetes","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",1
+"Docker, Deep Learning, SQL, Java, HTML, Git","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",0
+"Java, Data Analysis, CSS, Git, Machine Learning, SQL, React","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",0
+"Linux, Data Analysis, Node.js, Azure, C++","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"SQL, React, AWS, Linux, HTML, Git, Kubernetes","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"AWS, Kubernetes, Data Analysis, Git","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"C++, Data Analysis, Machine Learning, Azure, Kubernetes, Docker","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"Machine Learning, SQL, CSS, Git, Linux","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"Machine Learning, Data Analysis, Docker, Linux","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",0
+"Docker, HTML, JavaScript, SQL, Kubernetes, React","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"JavaScript, Machine Learning, Node.js, CSS, SQL, Kubernetes","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"Git, Java, HTML, JavaScript","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"AWS, Java, Kubernetes, Python, Data Analysis, Linux","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"HTML, Git, C++, JavaScript, Deep Learning, Data Analysis","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",0
+"C++, Data Analysis, Docker, Git, Kubernetes, SQL","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",0
+"React, Java, AWS, SQL, Kubernetes, Python, C++","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",1
+"HTML, AWS, Kubernetes, CSS, Linux, C++","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"HTML, Data Analysis, Docker, React, CSS, JavaScript","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"Docker, Deep Learning, Python, Data Analysis","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",0
+"Docker, C++, React, JavaScript, Data Analysis, Machine Learning","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",1
+"Git, C++, Linux, Docker","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"Python, Node.js, Git, React, C++","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",0
+"Java, Node.js, React, Git, Deep Learning, JavaScript, CSS","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"HTML, Kubernetes, Git, Linux, Node.js, AWS, CSS","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"HTML, Java, JavaScript, C++, AWS","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"Java, React, Machine Learning, Linux","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"Kubernetes, React, Node.js, C++, HTML, Data Analysis","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"Machine Learning, C++, Java, Node.js, Git, SQL","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"CSS, Node.js, Git, Machine Learning, Java, HTML, Kubernetes","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",0
+"HTML, Azure, Linux, Docker","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"Azure, C++, Machine Learning, Kubernetes, React, Git","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"Deep Learning, CSS, Node.js, Kubernetes","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"Machine Learning, CSS, Docker, Linux, Git","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"Node.js, HTML, CSS, React, Deep Learning, SQL, Linux","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",0
+"Git, Machine Learning, CSS, Node.js, C++, Data Analysis, JavaScript","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"Deep Learning, Kubernetes, C++, HTML, Python, Linux","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"React, Machine Learning, Deep Learning, CSS, SQL, HTML","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",1
+"JavaScript, AWS, Deep Learning, React, Azure","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"Machine Learning, Data Analysis, AWS, SQL","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"Kubernetes, SQL, C++, Java, Data Analysis, Linux","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"C++, Linux, Deep Learning, Java","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",0
+"C++, Kubernetes, Git, Deep Learning, React","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"Node.js, Azure, C++, HTML","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"HTML, Git, Azure, Machine Learning, SQL","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"Docker, C++, HTML, React, Kubernetes, CSS","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",1
+"Git, Linux, Deep Learning, SQL, CSS, Azure","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"C++, Docker, HTML, SQL, AWS, Java, JavaScript","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",1
+"Docker, Git, Data Analysis, SQL, Linux, Python, Node.js","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",1
+"Java, Python, AWS, HTML, Machine Learning, Kubernetes, Data Analysis","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"Azure, AWS, Machine Learning, Python, HTML, Docker, Linux","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",1
+"Python, C++, Data Analysis, Git, Deep Learning, Kubernetes, React","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"Docker, Kubernetes, Data Analysis, Deep Learning, Java, Azure","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"Java, Python, HTML, SQL, CSS","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",0
+"Kubernetes, React, CSS, SQL, Machine Learning, Deep Learning, Docker","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",1
+"JavaScript, Java, Git, Node.js, AWS, Deep Learning","Looking for Backend Developer with skills: Java, SQL, Docker, Git",1
+"Deep Learning, Azure, SQL, Linux","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"Docker, Machine Learning, Azure, HTML, Node.js, Linux","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",0
+"Python, Java, Node.js, C++, JavaScript","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"Python, Machine Learning, AWS, React","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"Git, C++, Deep Learning, Kubernetes, Node.js","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"C++, Java, CSS, Deep Learning, Git","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"Machine Learning, AWS, Azure, Git, Deep Learning","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"Python, Data Analysis, Node.js, Java, Docker, Git","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",0
+"SQL, JavaScript, Data Analysis, Java, HTML, CSS, Git","Looking for Backend Developer with skills: Java, SQL, Docker, Git",1
+"C++, Git, Docker, SQL, AWS","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"Linux, React, AWS, Node.js, HTML","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"AWS, C++, React, Node.js, Azure, Machine Learning","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"Node.js, Deep Learning, CSS, C++, Git, AWS, SQL","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"Python, Git, CSS, Deep Learning, HTML, C++, Linux","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"JavaScript, Java, AWS, Machine Learning","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"Git, Linux, Deep Learning, Docker, C++, Java, React","Looking for Backend Developer with skills: Java, SQL, Docker, Git",1
+"Git, Linux, Azure, Data Analysis, Kubernetes, CSS, AWS","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"Node.js, Linux, React, Data Analysis, SQL, Kubernetes, C++","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"AWS, Python, Git, Deep Learning","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"Git, CSS, Deep Learning, SQL, Java","Looking for Backend Developer with skills: Java, SQL, Docker, Git",1
+"Python, CSS, Data Analysis, Kubernetes, Machine Learning, Docker","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",1
+"CSS, Data Analysis, Java, C++, Azure, Kubernetes, JavaScript","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"Kubernetes, JavaScript, Data Analysis, AWS, Linux","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"React, CSS, Linux, HTML, Git","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"Docker, Python, Data Analysis, CSS, Node.js, React","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"Deep Learning, Docker, Azure, JavaScript, HTML","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"Azure, Linux, C++, AWS, React","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"JavaScript, C++, AWS, Data Analysis, Deep Learning","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"Data Analysis, Kubernetes, Docker, Deep Learning","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"CSS, Machine Learning, AWS, JavaScript, React, SQL, Azure","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",0
+"Docker, Linux, Machine Learning, Node.js, C++","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"AWS, Git, Linux, Machine Learning","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"CSS, SQL, Java, React","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",0
+"Data Analysis, Linux, Deep Learning, CSS, SQL, Python","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",0
+"Docker, Java, React, HTML, Machine Learning, C++, Azure","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"HTML, Git, Python, Azure, React","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"React, Data Analysis, Kubernetes, Linux","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"React, Data Analysis, Git, Deep Learning","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",0
+"Java, Linux, AWS, HTML","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",0
+"Deep Learning, CSS, Linux, Git","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"AWS, JavaScript, Data Analysis, React, SQL, C++, Node.js","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"Docker, Python, C++, React, Azure, Machine Learning","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",1
+"Deep Learning, Data Analysis, React, Docker, Azure, Java, C++","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"Azure, Deep Learning, SQL, Git","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"Data Analysis, HTML, Node.js, React, C++, AWS","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"Docker, AWS, Java, Git, Machine Learning","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",1
+"Data Analysis, React, Kubernetes, Git, Linux, HTML","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",1
+"Python, Java, SQL, C++, Docker","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"Data Analysis, C++, Java, AWS, Docker, Azure","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"Node.js, Git, Python, Kubernetes, Azure, Java","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"Docker, Git, JavaScript, C++, React, Machine Learning","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"Azure, HTML, Python, CSS, Machine Learning","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",1
+"JavaScript, Deep Learning, C++, AWS, Python, SQL","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",0
+"Kubernetes, JavaScript, AWS, Git","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"Kubernetes, HTML, CSS, Docker, React","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",0
+"Git, C++, Deep Learning, Node.js, Docker","Looking for Backend Developer with skills: Java, SQL, Docker, Git",1
+"Machine Learning, React, CSS, Git, Linux, Kubernetes","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"CSS, Git, HTML, Data Analysis, Kubernetes","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"JavaScript, Node.js, Kubernetes, AWS, C++, Docker","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",1
+"Git, JavaScript, CSS, Linux, Kubernetes","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"HTML, Data Analysis, Python, Linux, JavaScript, Git","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"Machine Learning, AWS, CSS, Linux, Node.js, Python, Java","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",1
+"CSS, Node.js, Linux, Machine Learning, C++","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"Linux, Java, Kubernetes, React, AWS","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"C++, AWS, Linux, Machine Learning, Deep Learning","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"Node.js, SQL, C++, Kubernetes","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"SQL, AWS, React, Azure","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"Git, Node.js, HTML, Kubernetes, CSS","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"Docker, Data Analysis, JavaScript, React, Deep Learning","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"Azure, CSS, Data Analysis, SQL, React","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",1
+"CSS, Machine Learning, Linux, Deep Learning, Java, React, Kubernetes","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"Docker, Git, AWS, Node.js, Deep Learning, Java","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"React, SQL, Data Analysis, Kubernetes","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"AWS, JavaScript, Node.js, CSS","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"C++, React, Machine Learning, AWS","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"Linux, C++, React, SQL, Machine Learning","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"Java, Kubernetes, Machine Learning, Data Analysis, Linux","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",0
+"Data Analysis, CSS, React, SQL","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"React, CSS, HTML, Azure, Kubernetes, JavaScript","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"Java, Linux, Git, Azure, Kubernetes, CSS","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"Node.js, React, Deep Learning, Git, C++, Machine Learning","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"Docker, Azure, Machine Learning, Linux, Kubernetes","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"SQL, JavaScript, Machine Learning, Git, Node.js, Kubernetes, Docker","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"React, C++, Git, Node.js, Linux, Python","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"Java, Machine Learning, Azure, Data Analysis","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"Kubernetes, CSS, Azure, HTML, Python, SQL","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"Deep Learning, React, Linux, CSS, SQL, Data Analysis, JavaScript","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",0
+"Machine Learning, JavaScript, Azure, CSS, Linux","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"JavaScript, Git, Node.js, Docker","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"AWS, JavaScript, Machine Learning, Git","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"Deep Learning, React, Machine Learning, Azure","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"Machine Learning, Azure, Data Analysis, CSS","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"Docker, Node.js, Machine Learning, Data Analysis, AWS, React","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",1
+"Java, C++, SQL, Docker, AWS","Looking for Backend Developer with skills: Java, SQL, Docker, Git",1
+"Node.js, C++, Python, Machine Learning","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"HTML, Node.js, AWS, Java, Azure, Data Analysis","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"Git, C++, SQL, Machine Learning, CSS, AWS","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"Git, Docker, Deep Learning, Data Analysis, Node.js, C++","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",0
+"Kubernetes, Git, CSS, AWS, Deep Learning, Data Analysis","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"Kubernetes, JavaScript, AWS, C++, Machine Learning, Deep Learning, Java","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"SQL, Python, AWS, Machine Learning, Kubernetes, Node.js, React","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"C++, Git, HTML, Azure, JavaScript, Node.js","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",1
+"Machine Learning, Azure, Git, Kubernetes, Docker","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"Linux, React, Docker, SQL, Azure, C++, Deep Learning","Looking for Backend Developer with skills: Java, SQL, Docker, Git",1
+"Linux, React, Azure, AWS, Kubernetes, CSS, Java","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"AWS, Machine Learning, CSS, SQL, C++, Deep Learning","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"Kubernetes, SQL, Java, Docker, Python, Machine Learning","Looking for Backend Developer with skills: Java, SQL, Docker, Git",1
+"AWS, Kubernetes, Azure, React, Java, C++","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"HTML, Linux, AWS, Node.js","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",1
+"HTML, Java, Docker, C++, Azure, Python","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"React, Linux, SQL, Python, Java","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"Kubernetes, Azure, Git, JavaScript, HTML, SQL, Python","Looking for Backend Developer with skills: Java, SQL, Docker, Git",1
+"Python, React, C++, Node.js","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"Python, React, Azure, HTML, Docker","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",0
+"AWS, Git, C++, Linux","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"Machine Learning, AWS, C++, Python, SQL, CSS, Data Analysis","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"Kubernetes, HTML, Docker, Java, SQL, CSS, Machine Learning","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",1
+"Machine Learning, Docker, React, Git, CSS","Looking for Backend Developer with skills: Java, SQL, Docker, Git",1
+"C++, AWS, CSS, SQL, Docker, Deep Learning, Linux","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",1
+"HTML, Python, Node.js, SQL, C++","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"Python, Git, C++, Linux, Kubernetes, React","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"Node.js, Docker, JavaScript, Data Analysis","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",0
+"Data Analysis, Git, JavaScript, Linux","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"HTML, AWS, SQL, Git, Node.js, Java","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"Azure, SQL, AWS, Data Analysis","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",1
+"Git, Java, React, SQL, JavaScript","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"React, CSS, Node.js, Java","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"AWS, Node.js, Machine Learning, Data Analysis, Java, Deep Learning","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"HTML, Data Analysis, Git, Deep Learning, Python, AWS, Kubernetes","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",0
+"Machine Learning, Java, SQL, Python, Data Analysis","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",0
+"CSS, SQL, AWS, HTML","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"CSS, HTML, JavaScript, Machine Learning","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"HTML, Data Analysis, Kubernetes, Java, Git, Node.js","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"Kubernetes, Git, Java, Docker","Looking for Backend Developer with skills: Java, SQL, Docker, Git",1
+"Kubernetes, Java, Azure, JavaScript, Node.js, Git","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"Docker, CSS, SQL, HTML, Kubernetes, Java, Python","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"SQL, Deep Learning, CSS, Machine Learning, Node.js","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"Machine Learning, CSS, Docker, React, Data Analysis","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",1
+"Azure, SQL, React, Docker, AWS, JavaScript","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",0
+"SQL, Node.js, AWS, CSS, Python, JavaScript, Docker","Looking for Backend Developer with skills: Java, SQL, Docker, Git",1
+"CSS, AWS, Deep Learning, Linux","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",1
+"CSS, C++, JavaScript, Machine Learning, Python","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",1
+"React, Azure, Deep Learning, Kubernetes, Java, SQL, JavaScript","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"CSS, Data Analysis, AWS, Python","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"Node.js, Machine Learning, SQL, HTML, Git","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"Git, Azure, Docker, HTML, Data Analysis, Node.js","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"Kubernetes, Node.js, SQL, CSS, AWS, Data Analysis","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"AWS, Machine Learning, HTML, Python, Azure","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"HTML, Git, Data Analysis, React, Machine Learning","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"React, HTML, Node.js, SQL, Machine Learning, Git, Deep Learning","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",0
+"React, Deep Learning, SQL, C++, Machine Learning","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"Kubernetes, AWS, React, HTML, Git, Node.js","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"Linux, Deep Learning, Kubernetes, Git, Java, Docker","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"CSS, Python, Linux, Machine Learning, Kubernetes","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",1
+"C++, Machine Learning, Azure, Git","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"React, AWS, Kubernetes, JavaScript, C++","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"React, Java, Azure, Machine Learning, Docker, HTML, Data Analysis","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",0
+"React, CSS, Machine Learning, Linux, AWS","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",1
+"Data Analysis, Git, CSS, Kubernetes, Azure, SQL","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"Node.js, Machine Learning, Azure, Git, Data Analysis, SQL","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",0
+"Kubernetes, Azure, Deep Learning, Node.js, React, Machine Learning, Java","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",1
+"Python, Java, C++, Azure, Deep Learning, Linux","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"SQL, Docker, Deep Learning, React, Node.js","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"Python, React, Git, Node.js, SQL","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",0
+"Linux, Machine Learning, Docker, Kubernetes, Python","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"Kubernetes, Data Analysis, Git, CSS, Machine Learning","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"SQL, HTML, Docker, C++, Data Analysis, JavaScript","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"HTML, SQL, Deep Learning, CSS, Docker, JavaScript, AWS","Looking for Backend Developer with skills: Java, SQL, Docker, Git",1
+"Docker, Node.js, Azure, JavaScript, Kubernetes, Git, Java","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"Python, Docker, JavaScript, C++, Java","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"Deep Learning, C++, Linux, Git, Docker, AWS, JavaScript","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"Deep Learning, React, Data Analysis, Linux, Azure","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"Deep Learning, Kubernetes, JavaScript, Java, SQL","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"Azure, SQL, AWS, Deep Learning, CSS, HTML, Node.js","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"Docker, Java, Python, Node.js, Machine Learning, C++, Kubernetes","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"JavaScript, SQL, Data Analysis, React","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"SQL, JavaScript, Java, Node.js, React, Linux, Python","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",1
+"HTML, Python, C++, Kubernetes, Docker","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",0
+"Docker, Deep Learning, Linux, Python","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"SQL, Azure, AWS, CSS","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"AWS, Linux, Docker, CSS","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"Docker, CSS, HTML, C++, React","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",0
+"Git, Kubernetes, React, Node.js, C++","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"Docker, Machine Learning, Deep Learning, C++, AWS","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",1
+"Data Analysis, Machine Learning, Azure, SQL","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"Git, SQL, Kubernetes, Node.js, Deep Learning, Azure, Docker","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"HTML, Java, Azure, AWS, Deep Learning","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"HTML, Docker, Linux, SQL","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"Azure, Docker, SQL, Machine Learning","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"Machine Learning, JavaScript, Node.js, Kubernetes, Docker","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"Java, HTML, Linux, Node.js, JavaScript, CSS, Data Analysis","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",1
+"React, C++, CSS, Deep Learning, Linux, JavaScript","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"Linux, JavaScript, Java, Kubernetes, Deep Learning","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"React, Data Analysis, Azure, Git, CSS, Kubernetes, HTML","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",0
+"HTML, Data Analysis, Python, Kubernetes, Docker","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"Data Analysis, Azure, Kubernetes, Java, Docker, JavaScript, Git","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"Machine Learning, Data Analysis, JavaScript, Python","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"Deep Learning, Azure, Java, Linux, AWS","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"HTML, Deep Learning, Azure, C++, SQL, AWS","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"Kubernetes, Data Analysis, Git, Java, CSS, Deep Learning","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"Python, Docker, Git, Azure, AWS, Deep Learning, HTML","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"Git, Azure, React, Machine Learning, JavaScript","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"Data Analysis, Machine Learning, Python, SQL, Java, JavaScript","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",1
+"Kubernetes, Docker, Java, SQL, CSS, AWS","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",1
+"Java, Python, Data Analysis, Azure, SQL, AWS","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"Data Analysis, Docker, C++, JavaScript, Deep Learning","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"Kubernetes, React, Python, Azure, JavaScript","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",1
+"React, Git, CSS, Docker, AWS, Data Analysis","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"Kubernetes, React, Node.js, Java","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"C++, Machine Learning, HTML, Docker, CSS, Node.js","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"Data Analysis, Azure, Linux, Docker, React, Kubernetes, AWS","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"Node.js, Data Analysis, CSS, C++, Deep Learning, SQL","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"Git, CSS, SQL, Node.js, Python, Deep Learning","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"Deep Learning, Azure, SQL, HTML, Git, Java, Data Analysis","Looking for Backend Developer with skills: Java, SQL, Docker, Git",1
+"Java, SQL, React, CSS, Machine Learning, AWS","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"Machine Learning, Java, React, HTML","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"Node.js, SQL, Java, Linux, JavaScript","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"C++, Deep Learning, Kubernetes, CSS","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"Java, C++, Node.js, JavaScript","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"Linux, JavaScript, Git, Data Analysis, Docker","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",0
+"Deep Learning, AWS, Docker, Java","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",1
+"C++, React, AWS, SQL","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",0
+"CSS, C++, Java, JavaScript, Docker","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"Docker, Linux, AWS, JavaScript, SQL","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"Deep Learning, Kubernetes, Azure, Node.js, C++, Python","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",0
+"Java, Docker, Machine Learning, Data Analysis","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"SQL, AWS, Python, Machine Learning, Java","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",1
+"Docker, Java, Data Analysis, Machine Learning","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",1
+"Linux, Git, JavaScript, Java, Data Analysis","Looking for Backend Developer with skills: Java, SQL, Docker, Git",1
+"JavaScript, HTML, Azure, Git, Linux, Docker, React","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",1
+"CSS, Kubernetes, AWS, Docker, Machine Learning, Node.js, Data Analysis","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"HTML, Deep Learning, Azure, Kubernetes, Node.js, C++, Machine Learning","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",0
+"React, Azure, Deep Learning, Python, Node.js, AWS, Java","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"AWS, Kubernetes, Deep Learning, HTML","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",0
+"HTML, Azure, Node.js, Data Analysis, Python","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"HTML, JavaScript, Data Analysis, Java, AWS, Machine Learning","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"Python, Java, SQL, AWS, CSS","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",0
+"HTML, CSS, Azure, AWS, Linux","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"React, Kubernetes, Data Analysis, AWS, SQL","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"HTML, Machine Learning, JavaScript, Azure, Node.js","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"Deep Learning, AWS, Data Analysis, Python","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"Docker, C++, Machine Learning, Node.js, AWS","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"Python, Git, Machine Learning, Deep Learning, Java","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",0
+"React, Python, CSS, JavaScript, Docker","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",1
+"Node.js, JavaScript, SQL, AWS, Git","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"Kubernetes, SQL, Git, Machine Learning, Data Analysis, C++, Python","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"CSS, Java, Node.js, Data Analysis","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"Git, Java, SQL, HTML","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"Node.js, AWS, HTML, Kubernetes","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"AWS, Docker, Linux, Kubernetes, Azure, Python","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"Git, Data Analysis, Kubernetes, Deep Learning, HTML, Azure","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"CSS, SQL, Node.js, React, Kubernetes, AWS, Git","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",1
+"Data Analysis, Kubernetes, Linux, Deep Learning","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"Docker, Java, AWS, JavaScript, Git","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"Linux, JavaScript, Git, React, Java, Python, Azure","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"Machine Learning, CSS, Git, AWS, Python","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",1
+"Kubernetes, AWS, Data Analysis, C++","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",1
+"Kubernetes, Node.js, Python, Data Analysis","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"Java, C++, JavaScript, Machine Learning","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"Java, Machine Learning, Git, Kubernetes, HTML, JavaScript","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",0
+"HTML, SQL, Python, AWS, Deep Learning","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",1
+"Node.js, Machine Learning, Docker, SQL, JavaScript","Looking for Backend Developer with skills: Java, SQL, Docker, Git",1
+"Linux, Node.js, C++, AWS, Machine Learning, Docker, HTML","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",1
+"Machine Learning, Linux, Azure, Python, Kubernetes, Data Analysis","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"AWS, HTML, Deep Learning, Linux","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",1
+"Java, Deep Learning, SQL, Git, Kubernetes, Node.js, Linux","Looking for Backend Developer with skills: Java, SQL, Docker, Git",1
+"JavaScript, React, Azure, Linux, C++, Data Analysis","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"React, Azure, Linux, Data Analysis, Machine Learning, C++","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"CSS, React, HTML, Linux, Deep Learning","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",1
+"C++, Python, Kubernetes, JavaScript, Java","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"CSS, Python, JavaScript, C++, AWS, Linux","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",1
+"Java, JavaScript, CSS, Kubernetes","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"Node.js, Machine Learning, Git, Java, Azure, Linux, HTML","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"Python, JavaScript, Deep Learning, React","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"Linux, Docker, Node.js, Machine Learning","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"Kubernetes, Machine Learning, HTML, C++","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"JavaScript, Java, Azure, Linux, Data Analysis, React","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"JavaScript, Machine Learning, Python, SQL, Linux, AWS","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"Linux, Kubernetes, Azure, Node.js","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"Git, Deep Learning, Java, C++, Python, Data Analysis","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",1
+"C++, Linux, Azure, CSS","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"Kubernetes, C++, Java, Deep Learning","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"Docker, SQL, Azure, Node.js","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"AWS, CSS, Node.js, React, C++","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"AWS, Machine Learning, HTML, Java, C++, Git, Data Analysis","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"Kubernetes, Node.js, C++, JavaScript","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"Node.js, CSS, HTML, Java","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"Java, Kubernetes, Data Analysis, C++, Deep Learning, Git","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"Java, C++, Linux, Python, Deep Learning","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"SQL, Deep Learning, Docker, Data Analysis, Azure, Node.js","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"Kubernetes, C++, Java, Node.js, Linux, AWS, Python","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"Python, JavaScript, Kubernetes, React, Deep Learning, C++, Data Analysis","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",1
+"C++, Linux, Deep Learning, Git, SQL, Java, Azure","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"Node.js, Linux, CSS, React","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",1
+"HTML, JavaScript, Linux, Docker, React","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",1
+"Azure, Linux, React, Docker, CSS","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"Deep Learning, Machine Learning, Azure, Kubernetes","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"Docker, Java, Linux, Git, Kubernetes","Looking for Backend Developer with skills: Java, SQL, Docker, Git",1
+"C++, Linux, AWS, Machine Learning, SQL, HTML","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"SQL, Java, JavaScript, Machine Learning, HTML, Azure, Data Analysis","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",0
+"JavaScript, HTML, Azure, React, Linux, Kubernetes, Python","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"JavaScript, Linux, Data Analysis, Deep Learning, SQL","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",0
+"CSS, Node.js, C++, Kubernetes","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"Java, HTML, C++, JavaScript","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",1
+"CSS, Python, C++, Kubernetes, Java, Azure, Deep Learning","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"Kubernetes, C++, HTML, Python, Data Analysis","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",0
+"Node.js, Kubernetes, AWS, JavaScript, React, HTML","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",0
+"CSS, Deep Learning, React, Data Analysis","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"Docker, AWS, Data Analysis, SQL, JavaScript","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"Azure, HTML, Git, React, AWS","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"CSS, Python, Kubernetes, Deep Learning, Git, JavaScript, Linux","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"Git, JavaScript, C++, Linux, Node.js, SQL","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"Git, Kubernetes, C++, Node.js, Data Analysis, AWS","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"Java, Machine Learning, Azure, Python, Linux, Deep Learning","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",0
+"SQL, Azure, Machine Learning, Python, Node.js","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"Node.js, React, Java, CSS, C++, HTML","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"AWS, Azure, HTML, CSS","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"AWS, Git, React, Python, Kubernetes","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"Data Analysis, React, CSS, Deep Learning, Machine Learning, Azure, JavaScript","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"Docker, Kubernetes, Azure, Python, Linux","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"Deep Learning, CSS, HTML, Node.js, Kubernetes, C++","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"Azure, Linux, JavaScript, Git, Kubernetes","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"Docker, C++, Machine Learning, AWS, Deep Learning, Linux","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"Deep Learning, Node.js, Docker, Linux, CSS, Java","Looking for Backend Developer with skills: Java, SQL, Docker, Git",1
+"HTML, Linux, React, Kubernetes, AWS, C++, Python","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",1
+"SQL, Linux, Data Analysis, React","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"Data Analysis, C++, HTML, React, Machine Learning","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"Node.js, Linux, Python, SQL, Machine Learning","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",1
+"Node.js, Python, Linux, Docker, Machine Learning, JavaScript","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"Azure, JavaScript, Kubernetes, Machine Learning, HTML, AWS, Deep Learning","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"Linux, Java, CSS, Data Analysis, Node.js, Kubernetes, Git","Looking for Backend Developer with skills: Java, SQL, Docker, Git",1
+"Deep Learning, Azure, CSS, AWS","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",0
+"Azure, Machine Learning, C++, AWS, Data Analysis, Python","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"Azure, Node.js, Data Analysis, Linux","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",0
+"Azure, Machine Learning, Python, SQL, Git","Looking for Backend Developer with skills: Java, SQL, Docker, Git",1
+"Deep Learning, Node.js, HTML, Data Analysis, Kubernetes, Git","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"Node.js, AWS, HTML, Git, Kubernetes, CSS","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"React, Machine Learning, Deep Learning, JavaScript, SQL","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",1
+"Docker, CSS, Java, Kubernetes, C++, React, HTML","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"Data Analysis, Node.js, Deep Learning, AWS, JavaScript","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",0
+"Data Analysis, Azure, JavaScript, HTML, Linux","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"Deep Learning, React, Java, JavaScript, Machine Learning, Git","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"SQL, CSS, HTML, Node.js","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"Machine Learning, CSS, Kubernetes, Python, Linux, JavaScript, Deep Learning","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"Docker, Azure, Data Analysis, CSS, SQL, C++, React","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",1
+"React, Machine Learning, Kubernetes, JavaScript","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",0
+"React, Azure, Data Analysis, Machine Learning, CSS, JavaScript","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",1
+"Git, React, Kubernetes, Docker","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"Data Analysis, SQL, Python, C++","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"Git, Linux, CSS, Docker, Azure, Node.js, Kubernetes","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"Azure, Linux, CSS, SQL, Java","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",0
+"CSS, Linux, JavaScript, Deep Learning, Python, Java","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",0
+"Git, CSS, Docker, Python, Node.js","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"Git, AWS, Deep Learning, React, Node.js, HTML, SQL","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"AWS, React, Git, Linux, C++, Machine Learning","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"JavaScript, SQL, Deep Learning, Kubernetes, Git, React, Python","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"JavaScript, Node.js, Deep Learning, C++, Data Analysis","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"Azure, Java, HTML, AWS, Machine Learning, SQL, C++","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"AWS, HTML, SQL, Machine Learning, Azure, JavaScript, CSS","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"Machine Learning, Python, Azure, C++","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",0
+"React, Python, Kubernetes, AWS, CSS, Linux","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"Java, Azure, Git, Deep Learning, Python","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"HTML, Git, Machine Learning, C++","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"Data Analysis, AWS, JavaScript, SQL, Java","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"Azure, React, SQL, C++, JavaScript, Deep Learning","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",1
+"CSS, Java, C++, Data Analysis, SQL","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"Deep Learning, HTML, Linux, CSS, Data Analysis","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"AWS, Data Analysis, JavaScript, React, Docker","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"Kubernetes, AWS, Data Analysis, Machine Learning, C++, Linux","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"Git, CSS, AWS, Java, JavaScript","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",0
+"AWS, Java, Deep Learning, Node.js, Machine Learning","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"Machine Learning, Node.js, Deep Learning, Kubernetes","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"Azure, CSS, AWS, Data Analysis, React, Git, C++","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",1
+"Git, React, Deep Learning, Kubernetes, Data Analysis, Machine Learning","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"Java, Deep Learning, Python, Linux, Machine Learning, Node.js","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",0
+"Python, HTML, C++, Docker, Data Analysis, Linux, Deep Learning","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"SQL, JavaScript, Machine Learning, Linux, C++, HTML","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"Data Analysis, Kubernetes, Docker, CSS, Machine Learning","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"Python, CSS, Data Analysis, Java, Git, Machine Learning","Looking for Frontend Developer with skills: HTML, CSS, JavaScript, React",0
+"Kubernetes, React, Deep Learning, Data Analysis, AWS, Docker","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",1
+"Git, Deep Learning, C++, Java, Azure","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"HTML, Data Analysis, React, AWS, Deep Learning, Linux, Java","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"Deep Learning, Git, Machine Learning, JavaScript, SQL, C++","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",0
+"Docker, Deep Learning, Git, C++, Azure","Looking for Backend Developer with skills: Java, SQL, Docker, Git",1
+"SQL, Java, Node.js, React, Git","Looking for Data Scientist with skills: Python, Machine Learning, SQL, Data Analysis",0
+"AWS, Docker, Kubernetes, HTML, Machine Learning","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",1
+"Docker, HTML, SQL, Linux","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"JavaScript, Java, HTML, SQL, React, C++, Linux","Looking for Backend Developer with skills: Java, SQL, Docker, Git",1
+"AWS, Linux, Deep Learning, CSS, Kubernetes, JavaScript","Looking for AI Engineer with skills: Python, Deep Learning, Machine Learning",0
+"Data Analysis, JavaScript, Java, Azure, Git, Python","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",0
+"SQL, HTML, Azure, Python","Looking for Backend Developer with skills: Java, SQL, Docker, Git",0
+"React, C++, Node.js, Machine Learning, JavaScript, Linux","Looking for DevOps Engineer with skills: Docker, Kubernetes, AWS, Linux",0

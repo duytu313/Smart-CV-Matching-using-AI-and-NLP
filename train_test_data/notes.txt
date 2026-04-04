@@ -1,0 +1,11 @@
+vocab=31 words
+
+-> Toàn bộ dataset chỉ có 31 từ khác nhau
+
+Với Word2Vec: < 1000 từ → coi như vô dụng
+
+Nếu muốn dùng word2vec thì cần tăng vocab có nghĩa là data phải giàu ưu tiên việc dùng text thật và cải tiến tokenizer
+
+
+
+uvicorn main:app --reload
