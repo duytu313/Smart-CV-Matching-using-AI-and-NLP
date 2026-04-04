@@ -1,0 +1,54 @@
+[
+  {
+    "Model": "TF-IDF + Cosine",
+    "Accuracy": 0.9627329192546584,
+    "Precision": 0.9707602339181286,
+    "Recall": 0.9764705882352941,
+    "F1-Score": 0.9736070381231672,
+    "AUC-ROC": 0.9933155080213903,
+    "Confusion_Matrix_TN": 133,
+    "Confusion_Matrix_FP": 10,
+    "Confusion_Matrix_FN": 8,
+    "Confusion_Matrix_TP": 332,
+    "Best_Threshold": 0.25000000000000006
+  },
+  {
+    "Model": "Word2Vec + Average",
+    "Accuracy": 0.8240165631469979,
+    "Precision": 0.8102189781021898,
+    "Recall": 0.9794117647058823,
+    "F1-Score": 0.8868175765645806,
+    "AUC-ROC": 0.7518510900863842,
+    "Confusion_Matrix_TN": 65,
+    "Confusion_Matrix_FP": 78,
+    "Confusion_Matrix_FN": 7,
+    "Confusion_Matrix_TP": 333,
+    "Best_Threshold": 0.6000000000000002
+  },
+  {
+    "Model": "SBERT (Pretrained)",
+    "Accuracy": 0.7536231884057971,
+    "Precision": 0.7407407407407407,
+    "Recall": 1.0,
+    "F1-Score": 0.851063829787234,
+    "AUC-ROC": 0.9994241053064583,
+    "Confusion_Matrix_TN": 24,
+    "Confusion_Matrix_FP": 119,
+    "Confusion_Matrix_FN": 0,
+    "Confusion_Matrix_TP": 340,
+    "Best_Threshold": NaN
+  },
+  {
+    "Model": "SBERT (Fine-tuned)",
+    "Accuracy": 0.9937888198757764,
+    "Precision": 0.9912536443148688,
+    "Recall": 1.0,
+    "F1-Score": 0.9956076134699854,
+    "AUC-ROC": 1.0,
+    "Confusion_Matrix_TN": 140,
+    "Confusion_Matrix_FP": 3,
+    "Confusion_Matrix_FN": 0,
+    "Confusion_Matrix_TP": 340,
+    "Best_Threshold": NaN
+  }
+]

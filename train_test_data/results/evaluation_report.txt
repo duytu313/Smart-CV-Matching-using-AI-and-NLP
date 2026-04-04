@@ -1,0 +1,44 @@
+============================================================
+CV-JD MATCHING MODEL EVALUATION REPORT
+Generated: 2026-04-05 06:07:00
+============================================================
+
+Dataset Statistics:
+- Train samples: 1931
+- Test samples: 483
+- Match ratio: 70.4%
+
+Model Performance Summary:
+------------------------------------------------------------
+
+TF-IDF + Cosine:
+  Accuracy : 0.9627
+  Precision: 0.9708
+  Recall   : 0.9765
+  F1-Score : 0.9736
+  AUC-ROC  : 0.9933
+
+Word2Vec + Average:
+  Accuracy : 0.8240
+  Precision: 0.8102
+  Recall   : 0.9794
+  F1-Score : 0.8868
+  AUC-ROC  : 0.7519
+
+SBERT (Pretrained):
+  Accuracy : 0.7536
+  Precision: 0.7407
+  Recall   : 1.0000
+  F1-Score : 0.8511
+  AUC-ROC  : 0.9994
+
+SBERT (Fine-tuned):
+  Accuracy : 0.9938
+  Precision: 0.9913
+  Recall   : 1.0000
+  F1-Score : 0.9956
+  AUC-ROC  : 1.0000
+
+============================================================
+🏆 BEST MODEL: SBERT (Fine-tuned) (F1-Score: 0.9956)
+============================================================
