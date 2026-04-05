@@ -1,6 +1,6 @@
 ============================================================
 CV-JD MATCHING MODEL EVALUATION REPORT
-Generated: 2026-04-05 06:07:00
+Generated: 2026-04-05 06:39:38
 ============================================================
 
 Dataset Statistics:
@@ -17,13 +17,29 @@ TF-IDF + Cosine:
   Recall   : 0.9765
   F1-Score : 0.9736
   AUC-ROC  : 0.9933
+  NDCG@1  : 0.7039
+  NDCG@3  : 0.7039
+  NDCG@5  : 0.7039
+  NDCG@10 : 0.7039
+  MRR@1   : 0.7039
+  MRR@3   : 0.7039
+  MRR@5   : 0.7039
+  MRR@10  : 0.7039
 
 Word2Vec + Average:
   Accuracy : 0.8240
-  Precision: 0.8102
-  Recall   : 0.9794
-  F1-Score : 0.8868
-  AUC-ROC  : 0.7519
+  Precision: 0.8058
+  Recall   : 0.9882
+  F1-Score : 0.8877
+  AUC-ROC  : 0.7461
+  NDCG@1  : 0.7039
+  NDCG@3  : 0.7039
+  NDCG@5  : 0.7039
+  NDCG@10 : 0.7039
+  MRR@1   : 0.7039
+  MRR@3   : 0.7039
+  MRR@5   : 0.7039
+  MRR@10  : 0.7039
 
 SBERT (Pretrained):
   Accuracy : 0.7536
@@ -31,6 +47,14 @@ SBERT (Pretrained):
   Recall   : 1.0000
   F1-Score : 0.8511
   AUC-ROC  : 0.9994
+  NDCG@1  : 0.7039
+  NDCG@3  : 0.7039
+  NDCG@5  : 0.7039
+  NDCG@10 : 0.7039
+  MRR@1   : 0.7039
+  MRR@3   : 0.7039
+  MRR@5   : 0.7039
+  MRR@10  : 0.7039
 
 SBERT (Fine-tuned):
   Accuracy : 0.9938
@@ -38,7 +62,16 @@ SBERT (Fine-tuned):
   Recall   : 1.0000
   F1-Score : 0.9956
   AUC-ROC  : 1.0000
+  NDCG@1  : 0.7039
+  NDCG@3  : 0.7039
+  NDCG@5  : 0.7039
+  NDCG@10 : 0.7039
+  MRR@1   : 0.7039
+  MRR@3   : 0.7039
+  MRR@5   : 0.7039
+  MRR@10  : 0.7039
 
 ============================================================
-🏆 BEST MODEL: SBERT (Fine-tuned) (F1-Score: 0.9956)
+🏆 BEST MODEL (F1-Score): SBERT (Fine-tuned) (F1-Score: 0.9956)
+🏆 BEST MODEL (NDCG@10): TF-IDF + Cosine (NDCG@10: 0.7039)
 ============================================================

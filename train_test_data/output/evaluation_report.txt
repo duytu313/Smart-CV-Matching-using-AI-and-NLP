@@ -2,7 +2,7 @@
 ================================================================================
 JOB MATCHING MODEL EVALUATION REPORT
 ================================================================================
-Generated: 2026-04-03 21:52:11
+Generated: 2026-04-05 06:54:09
 Configuration: {
   "tfidf_max_features": 500,
   "tfidf_ngram_range": [
@@ -21,34 +21,64 @@ Configuration: {
   "classifier_type": "logistic",
   "random_state": 42,
   "test_size": 0.2,
-  "cv_folds": 5
+  "cv_folds": 5,
+  "ranking_k_values": [
+    1,
+    3,
+    5,
+    10
+  ]
 }
 
 ================================================================================
-MODEL PERFORMANCE SUMMARY
+CLASSIFICATION METRICS
 ================================================================================
                   accuracy precision    recall  f1_score   auc_roc training_time
-TF-IDF            0.843333  0.583851   0.77686  0.666667  0.898566      0.155712
-Word2Vec          0.798333       0.0       0.0       0.0       0.5      0.793965
-SBERT                 0.82  0.535519  0.809917  0.644737  0.906744      0.290951
-Fine-tuned SBERT      0.86  0.614907  0.818182  0.702128  0.940096      0.236219
+TF-IDF            0.843333  0.583851   0.77686  0.666667  0.898566      0.149878
+Word2Vec          0.798333       0.0       0.0       0.0       0.5      0.642804
+SBERT                0.825  0.543956  0.818182  0.653465  0.907504       0.27849
+Fine-tuned SBERT  0.856667  0.611465  0.793388  0.690647  0.941597      0.178818
 
 ================================================================================
-BEST MODEL
+RANKING METRICS (NDCG@k & MRR@k)
 ================================================================================
-Model: Fine-tuned SBERT
-- F1-Score: 0.7021
-- Accuracy: 0.8600
-- Precision: 0.6149
-- Recall: 0.8182
-- AUC-ROC: 0.9401
+                    ndcg_1    ndcg_3    ndcg_5   ndcg_10     mrr_1     mrr_3     mrr_5    mrr_10
+TF-IDF            0.201667  0.201667  0.201667  0.201667  0.201667  0.201667  0.201667  0.201667
+Word2Vec          0.201667  0.201667  0.201667  0.201667  0.201667  0.201667  0.201667  0.201667
+SBERT             0.201667  0.201667  0.201667  0.201667  0.201667  0.201667  0.201667  0.201667
+Fine-tuned SBERT  0.201667  0.201667  0.201667  0.201667  0.201667  0.201667  0.201667  0.201667
+
+================================================================================
+BEST MODELS
+================================================================================
+Best by F1-Score:
+- Model: Fine-tuned SBERT
+- F1-Score: 0.6906
+- Accuracy: 0.8567
+- Precision: 0.6115
+- Recall: 0.7934
+- AUC-ROC: 0.9416
+- NDCG@10: 0.2017
+
+Best by NDCG@10:
+- Model: TF-IDF
+- NDCG@10: 0.2017
+- F1-Score: 0.6667
 
 ================================================================================
 RECOMMENDATIONS
 ================================================================================
-1. ✅ Production ready
+1. ⚠️ Need more data for production
 2. ✅ Fine-tuning improved performance
-3. ✅ Consider ensemble methods
+3. ⚠️ Ranking needs improvement
+4. ✅ Consider ensemble methods
+
+================================================================================
+INTERPRETATION OF RANKING METRICS
+================================================================================
+- NDCG@k: Measures ranking quality (1.0 = perfect ranking)
+- MRR@k: Measures how early first relevant item appears
+- Higher scores = better ranking performance
 
 ================================================================================
 FILES GENERATED

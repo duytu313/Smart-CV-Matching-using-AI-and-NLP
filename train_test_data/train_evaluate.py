@@ -20,9 +20,148 @@ os.makedirs("results", exist_ok=True)
 train_df = pd.read_csv("../data/cv_jd_pairs/train_cv_jd_pairs.csv")
 test_df = pd.read_csv("../data/cv_jd_pairs/test_cv_jd_pairs.csv")
 
-# Metrics function
-def evaluate_model(y_true, y_pred, y_score=None, model_name="Model"):
-    """Tính toán đầy đủ các metrics"""
+# ============================================
+# RANKING METRICS: NDCG & MRR
+# ============================================
+def ndcg_at_k(relevance_scores, k=10):
+    """
+    Tính NDCG@k (Normalized Discounted Cumulative Gain)
+    
+    Args:
+        relevance_scores: list of relevance scores (0 hoặc 1)
+        k: số lượng kết quả top-k
+    
+    Returns:
+        NDCG@k score
+    """
+    if len(relevance_scores) == 0:
+        return 0.0
+    
+    # Lấy top-k
+    relevance_scores = relevance_scores[:k]
+    
+    # DCG
+    dcg = 0.0
+    for i, rel in enumerate(relevance_scores):
+        dcg += rel / np.log2(i + 2)  # i+2 vì log2(1+1)=log2(2)=1
+    
+    # IDCG (Ideal DCG)
+    ideal_scores = sorted(relevance_scores, reverse=True)
+    idcg = 0.0
+    for i, rel in enumerate(ideal_scores):
+        idcg += rel / np.log2(i + 2)
+    
+    # NDCG
+    if idcg == 0:
+        return 0.0
+    return dcg / idcg
+
+def mrr_at_k(relevance_scores, k=10):
+    """
+    Tính MRR@k (Mean Reciprocal Rank)
+    
+    Args:
+        relevance_scores: list of relevance scores (0 hoặc 1)
+        k: số lượng kết quả top-k
+    
+    Returns:
+        MRR@k score
+    """
+    if len(relevance_scores) == 0:
+        return 0.0
+    
+    # Lấy top-k
+    relevance_scores = relevance_scores[:k]
+    
+    # Tìm vị trí đầu tiên có relevance=1
+    for i, rel in enumerate(relevance_scores):
+        if rel == 1:
+            return 1.0 / (i + 1)
+    
+    return 0.0
+
+def evaluate_ranking_metrics(model_scores, y_true, k_values=[1, 3, 5, 10]):
+    """
+    Đánh giá ranking metrics cho tất cả các queries
+    
+    Args:
+        model_scores: array of similarity scores
+        y_true: ground truth labels (0/1)
+        k_values: list of k values for NDCG@k and MRR@k
+    
+    Returns:
+        Dictionary với các metrics
+    """
+    metrics = {}
+    
+    # Với mỗi sample, coi như 1 query riêng
+    # Sắp xếp theo score giảm dần để tính ranking
+    for k in k_values:
+        ndcg_scores = []
+        mrr_scores = []
+        
+        # Trong trường hợp này, mỗi cặp (CV, JD) là độc lập
+        # Nên chúng ta tính NDCG và MRR dựa trên thứ tự sắp xếp theo score
+        # Sắp xếp tất cả samples theo score giảm dần
+        sorted_indices = np.argsort(model_scores)[::-1]
+        sorted_relevance = y_true.iloc[sorted_indices].values if hasattr(y_true, 'iloc') else y_true[sorted_indices]
+        
+        # Tính NDCG@k
+        ndcg = ndcg_at_k(sorted_relevance, k)
+        metrics[f"NDCG@{k}"] = ndcg
+        
+        # Tính MRR@k
+        mrr = mrr_at_k(sorted_relevance, k)
+        metrics[f"MRR@{k}"] = mrr
+    
+    return metrics
+
+def evaluate_ranking_per_query(model_scores_df, y_true_df, k_values=[1, 3, 5, 10]):
+    """
+    Đánh giá ranking metrics theo từng CV (mỗi CV có nhiều JD)
+    
+    Args:
+        model_scores_df: DataFrame với các cột ['cv_id', 'jd_id', 'score']
+        y_true_df: DataFrame với các cột ['cv_id', 'jd_id', 'label']
+        k_values: list of k values
+    
+    Returns:
+        Dictionary với average metrics
+    """
+    metrics = {f"NDCG@{k}": [] for k in k_values}
+    metrics.update({f"MRR@{k}": [] for k in k_values})
+    
+    # Group by cv_id
+    for cv_id in model_scores_df['cv_id'].unique():
+        # Lấy tất cả JD cho CV này
+        cv_scores = model_scores_df[model_scores_df['cv_id'] == cv_id].copy()
+        cv_labels = y_true_df[y_true_df['cv_id'] == cv_id].copy()
+        
+        # Merge scores với labels
+        merged = cv_scores.merge(cv_labels[['jd_id', 'label']], on='jd_id', how='left')
+        merged['label'] = merged['label'].fillna(0)
+        
+        # Sắp xếp theo score giảm dần
+        merged = merged.sort_values('score', ascending=False)
+        relevance_scores = merged['label'].values
+        
+        # Tính metrics cho từng k
+        for k in k_values:
+            metrics[f"NDCG@{k}"].append(ndcg_at_k(relevance_scores, k))
+            metrics[f"MRR@{k}"].append(mrr_at_k(relevance_scores, k))
+    
+    # Tính average
+    avg_metrics = {}
+    for k in k_values:
+        avg_metrics[f"NDCG@{k}"] = np.mean(metrics[f"NDCG@{k}"])
+        avg_metrics[f"MRR@{k}"] = np.mean(metrics[f"MRR@{k}"])
+    
+    return avg_metrics
+
+# Metrics function (cập nhật)
+def evaluate_model(y_true, y_pred, y_score=None, model_name="Model", 
+                   ranking_scores=None, cv_ids=None, jd_ids=None):
+    """Tính toán đầy đủ các metrics bao gồm classification và ranking"""
     metrics = {
         "Model": model_name,
         "Accuracy": accuracy_score(y_true, y_pred),
@@ -41,12 +180,34 @@ def evaluate_model(y_true, y_pred, y_score=None, model_name="Model"):
     metrics["Confusion_Matrix_FN"] = cm[1,0]
     metrics["Confusion_Matrix_TP"] = cm[1,1]
     
+    # Ranking Metrics
+    if ranking_scores is not None and cv_ids is not None and jd_ids is not None:
+        # Tạo DataFrame cho ranking
+        ranking_df = pd.DataFrame({
+            'cv_id': cv_ids,
+            'jd_id': jd_ids,
+            'score': ranking_scores
+        })
+        y_true_df = pd.DataFrame({
+            'cv_id': cv_ids,
+            'jd_id': jd_ids,
+            'label': y_true
+        })
+        
+        # Tính ranking metrics
+        ranking_metrics = evaluate_ranking_per_query(ranking_df, y_true_df, k_values=[1, 3, 5, 10])
+        metrics.update(ranking_metrics)
+    
     print(f"\n{'='*50}")
     print(f"📊 {model_name} Results")
     print(f"{'='*50}")
     for metric, value in metrics.items():
-        if metric not in ["Model", "Confusion_Matrix_TN", "Confusion_Matrix_FP", "Confusion_Matrix_FN", "Confusion_Matrix_TP"]:
-            print(f"{metric:12s}: {value:.4f}")
+        if metric not in ["Model", "Confusion_Matrix_TN", "Confusion_Matrix_FP", 
+                          "Confusion_Matrix_FN", "Confusion_Matrix_TP"]:
+            if metric.startswith(("NDCG", "MRR")):
+                print(f"{metric:12s}: {value:.4f}")
+            else:
+                print(f"{metric:12s}: {value:.4f}")
     
     print(f"\nConfusion Matrix:")
     print(f"TN: {cm[0,0]:4d}  FP: {cm[0,1]:4d}")
@@ -93,7 +254,12 @@ def tfidf_model(train_df, test_df):
     
     # Predict trên test
     y_pred = (test_sim > best_thresh).astype(int)
-    metrics = evaluate_model(test_df['label'], y_pred, test_sim, "TF-IDF + Cosine")
+    metrics = evaluate_model(
+        test_df['label'], y_pred, test_sim, "TF-IDF + Cosine",
+        ranking_scores=test_sim, 
+        cv_ids=test_df['cv_id'].values, 
+        jd_ids=test_df['jd_id'].values
+    )
     metrics["Best_Threshold"] = best_thresh
     return metrics
 
@@ -146,7 +312,12 @@ def word2vec_model(train_df, test_df):
     print(f"✅ Best threshold: {best_thresh:.3f} (F1: {best_f1:.4f})")
     
     y_pred = (test_sim > best_thresh).astype(int)
-    metrics = evaluate_model(test_df['label'], y_pred, test_sim, "Word2Vec + Average")
+    metrics = evaluate_model(
+        test_df['label'], y_pred, test_sim, "Word2Vec + Average",
+        ranking_scores=test_sim,
+        cv_ids=test_df['cv_id'].values,
+        jd_ids=test_df['jd_id'].values
+    )
     metrics["Best_Threshold"] = best_thresh
     return metrics
 
@@ -173,7 +344,12 @@ def sbert_pretrained_model(test_df):
     
     # Threshold tối ưu (có thể dùng 0.5 hoặc tìm trên validation)
     y_pred = (test_sim > 0.5).astype(int)
-    metrics = evaluate_model(test_df['label'], y_pred, test_sim, "SBERT (Pretrained)")
+    metrics = evaluate_model(
+        test_df['label'], y_pred, test_sim, "SBERT (Pretrained)",
+        ranking_scores=test_sim,
+        cv_ids=test_df['cv_id'].values,
+        jd_ids=test_df['jd_id'].values
+    )
     return metrics
 
 # ============================================
@@ -215,7 +391,12 @@ def sbert_finetuned_model(train_df, test_df):
     test_sim = np.array(test_sim)
     
     y_pred = (test_sim > 0.5).astype(int)
-    metrics = evaluate_model(test_df['label'], y_pred, test_sim, "SBERT (Fine-tuned)")
+    metrics = evaluate_model(
+        test_df['label'], y_pred, test_sim, "SBERT (Fine-tuned)",
+        ranking_scores=test_sim,
+        cv_ids=test_df['cv_id'].values,
+        jd_ids=test_df['jd_id'].values
+    )
     
     # Save model
     model.save("results/sbert_finetuned_cv_jd")
@@ -265,13 +446,26 @@ def save_results(all_metrics, train_df, test_df):
             f.write(f"  F1-Score : {row['F1-Score']:.4f}\n")
             if 'AUC-ROC' in row:
                 f.write(f"  AUC-ROC  : {row['AUC-ROC']:.4f}\n")
+            # Ranking metrics
+            for metric in ['NDCG@1', 'NDCG@3', 'NDCG@5', 'NDCG@10', 
+                          'MRR@1', 'MRR@3', 'MRR@5', 'MRR@10']:
+                if metric in row:
+                    f.write(f"  {metric:8s}: {row[metric]:.4f}\n")
         
-        # Best model
+        # Best model based on F1-Score
         best_idx = metrics_df['F1-Score'].idxmax()
         best_model = metrics_df.loc[best_idx, 'Model']
         best_f1 = metrics_df.loc[best_idx, 'F1-Score']
         f.write(f"\n{'='*60}\n")
-        f.write(f"🏆 BEST MODEL: {best_model} (F1-Score: {best_f1:.4f})\n")
+        f.write(f"🏆 BEST MODEL (F1-Score): {best_model} (F1-Score: {best_f1:.4f})\n")
+        
+        # Best model based on NDCG@10
+        if 'NDCG@10' in metrics_df.columns:
+            best_ndcg_idx = metrics_df['NDCG@10'].idxmax()
+            best_ndcg_model = metrics_df.loc[best_ndcg_idx, 'Model']
+            best_ndcg = metrics_df.loc[best_ndcg_idx, 'NDCG@10']
+            f.write(f"🏆 BEST MODEL (NDCG@10): {best_ndcg_model} (NDCG@10: {best_ndcg:.4f})\n")
+        
         f.write("="*60 + "\n")
     
     print("✅ Saved report to 'results/evaluation_report.txt'")
@@ -284,15 +478,18 @@ def save_results(all_metrics, train_df, test_df):
 def plot_comparison(metrics_df):
     """Vẽ biểu đồ so sánh các models và lưu"""
     
-    # Bỏ AUC-ROC nếu không có
-    plot_metrics = ['Accuracy', 'Precision', 'Recall', 'F1-Score']
+    # Classification metrics
+    class_metrics = ['Accuracy', 'Precision', 'Recall', 'F1-Score']
     if 'AUC-ROC' in metrics_df.columns:
-        plot_metrics.append('AUC-ROC')
+        class_metrics.append('AUC-ROC')
     
-    # Figure 1: Bar chart comparison
+    # Ranking metrics
+    ranking_metrics = [m for m in metrics_df.columns if m.startswith(('NDCG', 'MRR'))]
+    
+    # Figure 1: Bar chart for classification metrics
     fig1, ax1 = plt.subplots(figsize=(12, 6))
-    metrics_df.set_index('Model')[plot_metrics].plot(kind='bar', ax=ax1)
-    ax1.set_title('Model Comparison - All Metrics', fontsize=14, fontweight='bold')
+    metrics_df.set_index('Model')[class_metrics].plot(kind='bar', ax=ax1)
+    ax1.set_title('Model Comparison - Classification Metrics', fontsize=14, fontweight='bold')
     ax1.set_ylabel('Score', fontsize=12)
     ax1.set_xlabel('Model', fontsize=12)
     ax1.legend(loc='lower right')
@@ -300,65 +497,75 @@ def plot_comparison(metrics_df):
     ax1.grid(True, alpha=0.3)
     ax1.set_xticklabels(ax1.get_xticklabels(), rotation=45, ha='right')
     plt.tight_layout()
-    plt.savefig('results/model_comparison_bar.png', dpi=300, bbox_inches='tight')
+    plt.savefig('results/classification_metrics_comparison.png', dpi=300, bbox_inches='tight')
     plt.close()
-    print("✅ Saved bar chart to 'results/model_comparison_bar.png'")
+    print("✅ Saved classification metrics chart to 'results/classification_metrics_comparison.png'")
     
-    # Figure 2: F1-Score horizontal bar
-    fig2, ax2 = plt.subplots(figsize=(10, 6))
+    # Figure 2: NDCG@k comparison
+    if ranking_metrics:
+        ndcg_metrics = [m for m in ranking_metrics if m.startswith('NDCG')]
+        if ndcg_metrics:
+            fig2, ax2 = plt.subplots(figsize=(12, 6))
+            metrics_df.set_index('Model')[ndcg_metrics].plot(kind='bar', ax=ax2)
+            ax2.set_title('Model Comparison - NDCG@k (Higher is Better)', fontsize=14, fontweight='bold')
+            ax2.set_ylabel('NDCG Score', fontsize=12)
+            ax2.set_xlabel('Model', fontsize=12)
+            ax2.legend(loc='lower right')
+            ax2.set_ylim([0, 1])
+            ax2.grid(True, alpha=0.3)
+            ax2.set_xticklabels(ax2.get_xticklabels(), rotation=45, ha='right')
+            plt.tight_layout()
+            plt.savefig('results/ndcg_comparison.png', dpi=300, bbox_inches='tight')
+            plt.close()
+            print("✅ Saved NDCG comparison chart to 'results/ndcg_comparison.png'")
+        
+        # Figure 3: MRR@k comparison
+        mrr_metrics = [m for m in ranking_metrics if m.startswith('MRR')]
+        if mrr_metrics:
+            fig3, ax3 = plt.subplots(figsize=(12, 6))
+            metrics_df.set_index('Model')[mrr_metrics].plot(kind='bar', ax=ax3)
+            ax3.set_title('Model Comparison - MRR@k (Higher is Better)', fontsize=14, fontweight='bold')
+            ax3.set_ylabel('MRR Score', fontsize=12)
+            ax3.set_xlabel('Model', fontsize=12)
+            ax3.legend(loc='lower right')
+            ax3.set_ylim([0, 1])
+            ax3.grid(True, alpha=0.3)
+            ax3.set_xticklabels(ax3.get_xticklabels(), rotation=45, ha='right')
+            plt.tight_layout()
+            plt.savefig('results/mrr_comparison.png', dpi=300, bbox_inches='tight')
+            plt.close()
+            print("✅ Saved MRR comparison chart to 'results/mrr_comparison.png'")
+    
+    # Figure 4: F1-Score horizontal bar
+    fig4, ax4 = plt.subplots(figsize=(10, 6))
     metrics_df_sorted = metrics_df.sort_values('F1-Score', ascending=True)
     colors = plt.cm.viridis(np.linspace(0, 1, len(metrics_df_sorted)))
-    ax2.barh(metrics_df_sorted['Model'], metrics_df_sorted['F1-Score'], color=colors)
-    ax2.set_xlabel('F1-Score', fontsize=12)
-    ax2.set_title('F1-Score Comparison (Higher is Better)', fontsize=14, fontweight='bold')
-    ax2.set_xlim([0, 1])
-    ax2.grid(True, alpha=0.3, axis='x')
+    ax4.barh(metrics_df_sorted['Model'], metrics_df_sorted['F1-Score'], color=colors)
+    ax4.set_xlabel('F1-Score', fontsize=12)
+    ax4.set_title('F1-Score Comparison (Higher is Better)', fontsize=14, fontweight='bold')
+    ax4.set_xlim([0, 1])
+    ax4.grid(True, alpha=0.3, axis='x')
     
     # Thêm giá trị trên thanh
     for i, (idx, row) in enumerate(metrics_df_sorted.iterrows()):
-        ax2.text(row['F1-Score'] + 0.01, i, f'{row["F1-Score"]:.4f}', va='center')
+        ax4.text(row['F1-Score'] + 0.01, i, f'{row["F1-Score"]:.4f}', va='center')
     
     plt.tight_layout()
     plt.savefig('results/f1_score_comparison.png', dpi=300, bbox_inches='tight')
     plt.close()
     print("✅ Saved F1-Score chart to 'results/f1_score_comparison.png'")
     
-    # Figure 3: Radar chart for top model comparison
-    fig3, ax3 = plt.subplots(figsize=(8, 8), subplot_kw=dict(projection='polar'))
-    
-    models_to_plot = metrics_df['Model'].tolist()
-    metrics_to_plot = ['Accuracy', 'Precision', 'Recall', 'F1-Score']
-    
-    angles = np.linspace(0, 2*np.pi, len(metrics_to_plot), endpoint=False).tolist()
-    angles += angles[:1]
-    
-    for model in models_to_plot:
-        values = metrics_df[metrics_df['Model'] == model][metrics_to_plot].values.flatten().tolist()
-        values += values[:1]
-        ax3.plot(angles, values, 'o-', linewidth=2, label=model)
-        ax3.fill(angles, values, alpha=0.1)
-    
-    ax3.set_xticks(angles[:-1])
-    ax3.set_xticklabels(metrics_to_plot)
-    ax3.set_ylim([0, 1])
-    ax3.set_title('Radar Chart - Model Comparison', fontsize=14, fontweight='bold', pad=20)
-    ax3.legend(loc='upper right', bbox_to_anchor=(1.3, 1.0))
-    ax3.grid(True)
-    plt.tight_layout()
-    plt.savefig('results/radar_chart_comparison.png', dpi=300, bbox_inches='tight')
-    plt.close()
-    print("✅ Saved radar chart to 'results/radar_chart_comparison.png'")
-    
-    # Figure 4: Heatmap của metrics
-    fig4, ax4 = plt.subplots(figsize=(10, 6))
-    heatmap_data = metrics_df.set_index('Model')[metrics_to_plot]
-    sns.heatmap(heatmap_data, annot=True, fmt='.4f', cmap='YlOrRd', 
-                cbar_kws={'label': 'Score'}, ax=ax4)
-    ax4.set_title('Performance Heatmap', fontsize=14, fontweight='bold')
-    plt.tight_layout()
-    plt.savefig('results/performance_heatmap.png', dpi=300, bbox_inches='tight')
-    plt.close()
-    print("✅ Saved heatmap to 'results/performance_heatmap.png'")
+    # Figure 5: Heatmap cho ranking metrics
+    if ranking_metrics:
+        fig5, ax5 = plt.subplots(figsize=(12, 8))
+        heatmap_data = metrics_df.set_index('Model')[ranking_metrics]
+        sns.heatmap(heatmap_data, annot=True, fmt='.4f', cmap='YlOrRd', 
+                    cbar_kws={'label': 'Score'}, ax=ax5)
+        ax5.set_title('Ranking Metrics Heatmap', fontsize=14, fontweight='bold')
+        plt.tight_layout()
+        plt.savefig('results/ranking_metrics_heatmap.png', dpi=300, bbox_inches='tight')
+        plt.close()
+        print("✅ Saved ranking metrics heatmap to 'results/ranking_metrics_heatmap.png'")
 
 # ============================================
 # RUN ALL MODELS
@@ -387,12 +594,32 @@ if __name__ == "__main__":
     print("\n" + "="*60)
     print("📈 FINAL COMPARISON SUMMARY")
     print("="*60)
-    print(metrics_df[['Model', 'Accuracy', 'Precision', 'Recall', 'F1-Score']].round(4))
+    
+    # Classification summary
+    class_cols = ['Model', 'Accuracy', 'Precision', 'Recall', 'F1-Score']
+    if 'AUC-ROC' in metrics_df.columns:
+        class_cols.append('AUC-ROC')
+    print("\nClassification Metrics:")
+    print(metrics_df[class_cols].round(4))
+    
+    # Ranking summary
+    ranking_cols = ['Model'] + [c for c in metrics_df.columns if c.startswith(('NDCG', 'MRR'))]
+    if len(ranking_cols) > 1:
+        print("\nRanking Metrics:")
+        print(metrics_df[ranking_cols].round(4))
+    
     print("="*60)
     
-    # Best model
-    best_idx = metrics_df['F1-Score'].idxmax()
-    best_model = metrics_df.loc[best_idx, 'Model']
-    best_f1 = metrics_df.loc[best_idx, 'F1-Score']
-    print(f"\n🏆 Best Model: {best_model} (F1-Score: {best_f1:.4f})")
+    # Best models
+    best_f1_idx = metrics_df['F1-Score'].idxmax()
+    best_model_f1 = metrics_df.loc[best_f1_idx, 'Model']
+    best_f1 = metrics_df.loc[best_f1_idx, 'F1-Score']
+    print(f"\n🏆 Best Model (F1-Score): {best_model_f1} (F1-Score: {best_f1:.4f})")
+    
+    if 'NDCG@10' in metrics_df.columns:
+        best_ndcg_idx = metrics_df['NDCG@10'].idxmax()
+        best_model_ndcg = metrics_df.loc[best_ndcg_idx, 'Model']
+        best_ndcg = metrics_df.loc[best_ndcg_idx, 'NDCG@10']
+        print(f"🏆 Best Model (NDCG@10): {best_model_ndcg} (NDCG@10: {best_ndcg:.4f})")
+    
     print("\n✅ All results saved to 'results/' folder")

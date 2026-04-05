@@ -6,6 +6,8 @@ Với Word2Vec: < 1000 từ → coi như vô dụng
 
 Nếu muốn dùng word2vec thì cần tăng vocab có nghĩa là data phải giàu ưu tiên việc dùng text thật và cải tiến tokenizer
 
+NDCG không chỉ quan tâm đúng sai mà còn quan tâm đến kết quả có nằm trong top không ?
 
+MRR kết quả đầu tiên xuất hiện ở vị chí nào 
 
 uvicorn main:app --reload

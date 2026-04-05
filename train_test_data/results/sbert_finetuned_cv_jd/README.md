@@ -9,52 +9,54 @@ tags:
 - loss:CosineSimilarityLoss
 base_model: sentence-transformers/all-MiniLM-L6-v2
 widget:
-- source_sentence: Mid-level Frontend Developer with 8+ years of experience. Proficient
-    in Vue.js, HTML5, JavaScript. Strong problem-solving and communication skills.
+- source_sentence: Senior System Administrator with 2+ years of experience. Proficient
+    in Data Structures, System Design, Git, Agile, Java. Strong problem-solving and
+    communication skills.
   sentences:
-  - 'We are hiring Senior System Administrator. Requirements: 2+ years experience
-    in Agile, Git, Java. Bachelor''s degree required.'
-  - 'We are hiring Junior System Administrator. Requirements: 6+ years experience
-    in Java, Algorithms, Data Structures, System Design, Git. Bachelor''s degree required.'
-  - 'We are hiring Mid-level Frontend Developer. Requirements: 7+ years experience
-    in CSS3, TypeScript, Vue.js, Angular. Bachelor''s degree required.'
-- source_sentence: Senior Backend Developer with 2+ years of experience. Proficient
-    in Microservices, SQL, Java. Strong problem-solving and communication skills.
+  - 'We are hiring Senior System Administrator. Requirements: 7+ years experience
+    in Agile, Python, Algorithms, Git, Java. Bachelor''s degree required.'
+  - 'We are hiring Senior Data Scientist. Requirements: 6+ years experience in TensorFlow,
+    Data Visualization, PyTorch. Bachelor''s degree required.'
+  - 'We are hiring Senior System Administrator. Requirements: 4+ years experience
+    in Git, Java, Data Structures. Bachelor''s degree required.'
+- source_sentence: Senior UI/UX Designer with 3+ years of experience. Proficient in
+    Data Structures, Git, System Design, Java, Python. Strong problem-solving and
+    communication skills.
   sentences:
-  - 'We are hiring Senior Network Engineer. Requirements: 6+ years experience in Algorithms,
-    Java, Git, Agile, Data Structures. Bachelor''s degree required.'
-  - 'We are hiring Mid-level DevOps Engineer. Requirements: 6+ years experience in
-    Kubernetes, AWS, Git, Jenkins. Bachelor''s degree required.'
-  - 'We are hiring Senior Backend Developer. Requirements: 6+ years experience in
-    Spring Boot, REST APIs, Java, Django, Python. Bachelor''s degree required.'
-- source_sentence: Junior Product Manager with 2+ years of experience. Proficient
-    in User Research, Analytics, Agile. Strong problem-solving and communication skills.
-  sentences:
-  - 'We are hiring Junior Fullstack Developer. Requirements: 6+ years experience in
-    Data Structures, System Design, Agile, Algorithms. Bachelor''s degree required.'
-  - 'We are hiring Junior Database Administrator. Requirements: 5+ years experience
-    in Git, Algorithms, Java, Python. Bachelor''s degree required.'
-  - 'We are hiring Senior QA Engineer. Requirements: 3+ years experience in Python,
-    System Design, Algorithms. Bachelor''s degree required.'
-- source_sentence: Junior Data Scientist with 8+ years of experience. Proficient in
-    PyTorch, Python, Data Visualization, Machine Learning, Statistics. Strong problem-solving
-    and communication skills.
-  sentences:
-  - 'We are hiring Senior Project Manager. Requirements: 6+ years experience in Git,
-    Python, System Design. Bachelor''s degree required.'
-  - 'We are hiring Senior Cloud Architect. Requirements: 2+ years experience in Agile,
-    System Design, Algorithms. Bachelor''s degree required.'
-  - 'We are hiring Junior Data Scientist. Requirements: 5+ years experience in PyTorch,
-    TensorFlow, Python, SQL. Bachelor''s degree required.'
-- source_sentence: Junior QA Engineer with 8+ years of experience. Proficient in Git,
-    System Design, Agile. Strong problem-solving and communication skills.
+  - 'We are hiring Senior Product Manager. Requirements: 6+ years experience in Analytics,
+    Agile, Scrum, JIRA. Bachelor''s degree required.'
+  - 'We are hiring Junior Business Analyst. Requirements: 2+ years experience in Git,
+    Algorithms, Agile, Python. Bachelor''s degree required.'
+  - 'We are hiring Senior Security Engineer. Requirements: 6+ years experience in
+    Git, Algorithms, Java, System Design, Agile. Bachelor''s degree required.'
+- source_sentence: Junior QA Engineer with 3+ years of experience. Proficient in Python,
+    Agile, Git. Strong problem-solving and communication skills.
   sentences:
   - 'We are hiring Junior QA Engineer. Requirements: 2+ years experience in Python,
-    Java, Algorithms, Agile, Data Structures. Bachelor''s degree required.'
-  - 'We are hiring Junior Fullstack Developer. Requirements: 4+ years experience in
-    Python, Agile, Git, Data Structures, System Design. Bachelor''s degree required.'
-  - 'We are hiring Junior Data Analyst. Requirements: 4+ years experience in Power
-    BI, Excel, Data Visualization, SQL. Bachelor''s degree required.'
+    Git, Agile, Algorithms. Bachelor''s degree required.'
+  - 'We are hiring Junior QA Engineer. Requirements: 2+ years experience in Git, Agile,
+    Java. Bachelor''s degree required.'
+  - 'We are hiring Mid-level Fullstack Developer. Requirements: 4+ years experience
+    in Git, Python, System Design. Bachelor''s degree required.'
+- source_sentence: Senior Cloud Architect with 3+ years of experience. Proficient
+    in Agile, System Design, Git, Java. Strong problem-solving and communication skills.
+  sentences:
+  - 'We are hiring Mid-level Product Manager. Requirements: 6+ years experience in
+    Roadmapping, Product Strategy, Scrum, Analytics. Bachelor''s degree required.'
+  - 'We are hiring Senior Data Analyst. Requirements: 6+ years experience in Statistics,
+    Tableau, Python, Excel, Power BI. Bachelor''s degree required.'
+  - 'We are hiring Senior Software Engineer. Requirements: 2+ years experience in
+    Python, Algorithms, Java, Agile. Bachelor''s degree required.'
+- source_sentence: Senior Software Engineer with 6+ years of experience. Proficient
+    in Algorithms, Data Structures, System Design, Java, Python. Strong problem-solving
+    and communication skills.
+  sentences:
+  - 'We are hiring Senior Software Engineer. Requirements: 4+ years experience in
+    Agile, Java, System Design. Bachelor''s degree required.'
+  - 'We are hiring Mid-level Fullstack Developer. Requirements: 4+ years experience
+    in Agile, Git, Data Structures, Algorithms. Bachelor''s degree required.'
+  - 'We are hiring Mid-level Business Analyst. Requirements: 7+ years experience in
+    Algorithms, Agile, System Design, Java, Python. Bachelor''s degree required.'
 pipeline_tag: sentence-similarity
 library_name: sentence-transformers
 ---
@@ -109,9 +111,9 @@ from sentence_transformers import SentenceTransformer
 model = SentenceTransformer("sentence_transformers_model_id")
 # Run inference
 sentences = [
-    'Junior QA Engineer with 8+ years of experience. Proficient in Git, System Design, Agile. Strong problem-solving and communication skills.',
-    "We are hiring Junior QA Engineer. Requirements: 2+ years experience in Python, Java, Algorithms, Agile, Data Structures. Bachelor's degree required.",
-    "We are hiring Junior Data Analyst. Requirements: 4+ years experience in Power BI, Excel, Data Visualization, SQL. Bachelor's degree required.",
+    'Senior Software Engineer with 6+ years of experience. Proficient in Algorithms, Data Structures, System Design, Java, Python. Strong problem-solving and communication skills.',
+    "We are hiring Senior Software Engineer. Requirements: 4+ years experience in Agile, Java, System Design. Bachelor's degree required.",
+    "We are hiring Mid-level Business Analyst. Requirements: 7+ years experience in Algorithms, Agile, System Design, Java, Python. Bachelor's degree required.",
 ]
 embeddings = model.encode(sentences)
 print(embeddings.shape)
@@ -120,9 +122,9 @@ print(embeddings.shape)
 # Get the similarity scores for the embeddings
 similarities = model.similarity(embeddings, embeddings)
 print(similarities)
-# tensor([[1.0000, 0.9956, 0.0081],
-#         [0.9956, 1.0000, 0.0139],
-#         [0.0081, 0.0139, 1.0000]])
+# tensor([[ 1.0000,  0.9920, -0.0114],
+#         [ 0.9920,  1.0000,  0.0001],
+#         [-0.0114,  0.0001,  1.0000]])
 ```
 
 <!--
@@ -170,16 +172,16 @@ You can finetune this model on your own dataset.
 * Size: 1,931 training samples
 * Columns: <code>sentence_0</code>, <code>sentence_1</code>, and <code>label</code>
 * Approximate statistics based on the first 1000 samples:
-  |         | sentence_0                                                                         | sentence_1                                                                         | label                                                          |
-  |:--------|:-----------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------|:---------------------------------------------------------------|
-  | type    | string                                                                             | string                                                                             | float                                                          |
-  | details | <ul><li>min: 28 tokens</li><li>mean: 33.43 tokens</li><li>max: 43 tokens</li></ul> | <ul><li>min: 28 tokens</li><li>mean: 33.58 tokens</li><li>max: 44 tokens</li></ul> | <ul><li>min: 0.0</li><li>mean: 0.71</li><li>max: 1.0</li></ul> |
+  |         | sentence_0                                                                         | sentence_1                                                                        | label                                                          |
+  |:--------|:-----------------------------------------------------------------------------------|:----------------------------------------------------------------------------------|:---------------------------------------------------------------|
+  | type    | string                                                                             | string                                                                            | float                                                          |
+  | details | <ul><li>min: 28 tokens</li><li>mean: 33.55 tokens</li><li>max: 43 tokens</li></ul> | <ul><li>min: 28 tokens</li><li>mean: 33.5 tokens</li><li>max: 44 tokens</li></ul> | <ul><li>min: 0.0</li><li>mean: 0.71</li><li>max: 1.0</li></ul> |
 * Samples:
-  | sentence_0                                                                                                                                                                        | sentence_1                                                                                                                                                             | label            |
-  |:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------|
-  | <code>Junior Security Engineer with 3+ years of experience. Proficient in Algorithms, Python, Java, Data Structures, Git. Strong problem-solving and communication skills.</code> | <code>We are hiring Junior Backend Developer. Requirements: 2+ years experience in Python, Node.js, Spring Boot. Bachelor's degree required.</code>                    | <code>0.0</code> |
-  | <code>Senior Data Analyst with 8+ years of experience. Proficient in Excel, Data Visualization, Tableau, Python. Strong problem-solving and communication skills.</code>          | <code>We are hiring Senior Data Analyst. Requirements: 7+ years experience in Power BI, Excel, Statistics. Bachelor's degree required.</code>                          | <code>1.0</code> |
-  | <code>Senior System Administrator with 2+ years of experience. Proficient in Git, Java, Algorithms. Strong problem-solving and communication skills.</code>                       | <code>We are hiring Senior Mobile Developer. Requirements: 2+ years experience in Data Structures, Algorithms, Java, Python, Agile. Bachelor's degree required.</code> | <code>0.0</code> |
+  | sentence_0                                                                                                                                                                               | sentence_1                                                                                                                                                            | label            |
+  |:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------|
+  | <code>Mid-level Mobile Developer with 9+ years of experience. Proficient in Python, Java, System Design, Data Structures, Agile. Strong problem-solving and communication skills.</code> | <code>We are hiring Mid-level Mobile Developer. Requirements: 4+ years experience in Java, System Design, Data Structures, Python. Bachelor's degree required.</code> | <code>1.0</code> |
+  | <code>Senior DevOps Engineer with 9+ years of experience. Proficient in Git, AWS, CI/CD, Docker, Kubernetes. Strong problem-solving and communication skills.</code>                     | <code>We are hiring Senior DevOps Engineer. Requirements: 4+ years experience in Terraform, Docker, AWS, Jenkins. Bachelor's degree required.</code>                  | <code>1.0</code> |
+  | <code>Junior Project Manager with 6+ years of experience. Proficient in System Design, Java, Git. Strong problem-solving and communication skills.</code>                                | <code>We are hiring Junior Data Scientist. Requirements: 2+ years experience in PyTorch, Data Visualization, Python. Bachelor's degree required.</code>               | <code>0.0</code> |
 * Loss: [<code>CosineSimilarityLoss</code>](https://sbert.net/docs/package_reference/sentence_transformer/losses.html#cosinesimilarityloss) with these parameters:
   ```json
   {
